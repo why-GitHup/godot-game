@@ -11,5 +11,11 @@ config_version=5
 [application]
 
 config/name="game"
+run/main_scene="uid://cxof7xtddbo0n"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[layer_names]
+
+3d_render/layer_8="ground"
+3d_physics/layer_8="grou"
